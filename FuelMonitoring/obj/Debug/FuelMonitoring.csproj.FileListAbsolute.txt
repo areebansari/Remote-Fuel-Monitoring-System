@@ -1,0 +1,12 @@
+E:\Github Projects\VS\NewAEIModbusFuelMonitoring\AEIModbusFuelMonitoring\bin\Debug\FuelMonitoring.exe.config
+E:\Github Projects\VS\NewAEIModbusFuelMonitoring\AEIModbusFuelMonitoring\obj\Debug\FuelMonitoring.csprojResolveAssemblyReference.cache
+E:\Github Projects\VS\NewAEIModbusFuelMonitoring\AEIModbusFuelMonitoring\obj\Debug\FuelMonitoring.Properties.Resources.resources
+E:\Github Projects\VS\NewAEIModbusFuelMonitoring\AEIModbusFuelMonitoring\obj\Debug\FuelMonitoring.csproj.GenerateResource.Cache
+E:\Github Projects\VS\NewAEIModbusFuelMonitoring\AEIModbusFuelMonitoring\obj\Debug\FuelMonitoring.FrmDataView.resources
+E:\Github Projects\VS\NewAEIModbusFuelMonitoring\AEIModbusFuelMonitoring\obj\Debug\FuelMonitoring.frmFuelmonitoring.resources
+E:\Github Projects\VS\NewAEIModbusFuelMonitoring\AEIModbusFuelMonitoring\bin\Debug\DB\RemFMDB.mdf
+E:\Github Projects\VS\NewAEIModbusFuelMonitoring\AEIModbusFuelMonitoring\bin\Debug\DB\RemFMDB_log.ldf
+E:\Github Projects\VS\NewAEIModbusFuelMonitoring\AEIModbusFuelMonitoring\bin\Debug\FuelMonitoring.exe
+E:\Github Projects\VS\NewAEIModbusFuelMonitoring\AEIModbusFuelMonitoring\bin\Debug\FuelMonitoring.pdb
+E:\Github Projects\VS\NewAEIModbusFuelMonitoring\AEIModbusFuelMonitoring\obj\Debug\FuelMonitoring.exe
+E:\Github Projects\VS\NewAEIModbusFuelMonitoring\AEIModbusFuelMonitoring\obj\Debug\FuelMonitoring.pdb

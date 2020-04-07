@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="FuelM">
+  <DataContextMoniker Name="/FuelMDataContext" />
+  <nestedChildShapes>
+    <classShape Id="97dc310f-e5eb-4f96-baaf-2f719350d798" absoluteBounds="4.375, 1.5, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/FuelMDataContext/CardMonitor" />
+      <nestedChildShapes>
+        <elementListCompartment Id="05506fec-6718-4057-a2e5-6773a059ef99" absoluteBounds="4.39, 1.96, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="00ecb169-087a-4df4-9434-825b3fa3a0fa" absoluteBounds="6.5, 1.125, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/FuelMDataContext/FillReadingData" />
+      <nestedChildShapes>
+        <elementListCompartment Id="087fd7fe-5f6f-4a68-8dd2-6126e0c84aea" absoluteBounds="6.515, 1.585, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="893fa072-36ad-404b-a070-2fe239b85ce2" absoluteBounds="3.625, 1.875, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/FuelMDataContext/ErrorCommLog" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5ff08199-0bbd-4ce8-87f4-5cab7831d0f7" absoluteBounds="3.64, 2.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

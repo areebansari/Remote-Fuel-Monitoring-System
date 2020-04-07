@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="RemFMDB" Class="FuelMDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=Dispensor\SQLEXPRESS;Initial Catalog=RemFMDB;Integrated Security=True" SettingsObjectName="FuelMonitoring.Properties.Settings" SettingsPropertyName="RemFMDBConnectionString4" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.CardMonitor" Member="CardMonitors">
+    <Type Name="CardMonitor">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Slaveside" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Serialno" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Fillcounter" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Datetime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Status" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DeActiveDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FillReadingData" Member="FillReadingDatas">
+    <Type Name="FillReadingData">
+      <Column Name="FillID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FillTime" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FillDate" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Slaveno" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Slaveside" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Fillcounter" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="KG" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Price" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Rate" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="NonResetTot" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ResetableTot" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Serialno" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ErrorCommLog" Member="ErrorCommLogs">
+    <Type Name="ErrorCommLog">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Counter" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Dispensor" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Status" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
